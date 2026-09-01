@@ -4,5 +4,31 @@
  "title": "Persuasion-Dynamics-in-LLMs-Investigating-Robustness-and-Ada",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:12:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c8123897-b569-428a-bb53-733b04bd4d7a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c8123897-b569-428a-bb53-733b04bd4d7a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 17:01:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persuasion dynamics",
+    "stance change",
+    "DPO",
+    "sycophancy",
+    "LLM robustness",
+    "multi-turn dialogue",
+    "knowledge safety evaluation"
+   ],
+   "field": "大语言模型对齐与可靠性",
+   "innovations": [
+    "提出 DuET-PD 双维评估框架，系统量化知识/安全域中正/负面多轮说服下的立场变化",
+    "发现 SOTA 模型在知识域极易受误导（GPT-4o 仅 27.32% 保持正确）且新开源模型安全域讨好趋势上升",
+    "设计 Holistic DPO 训练方法，使 Llama-3.1-8B 安全域抗误导准确率从 4.21% 提升至 76.54% 同时保持高纠正接受度"
+   ],
+   "benchmarks": [
+    "MMLU-Pro",
+    "SALAD-Bench"
+   ]
+  }
+ }
 }

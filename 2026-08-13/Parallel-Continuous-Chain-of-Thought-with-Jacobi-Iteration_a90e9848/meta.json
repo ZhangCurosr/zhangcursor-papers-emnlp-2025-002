@@ -4,5 +4,31 @@
  "title": "Parallel-Continuous-Chain-of-Thought-with-Jacobi-Iteration",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9590b64a-90a6-4338-afd2-9eaf2cf57bd1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9590b64a-90a6-4338-afd2-9eaf2cf57bd1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 17:00:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Thought",
+    "Continuous Reasoning",
+    "Parallel Inference",
+    "Jacobi Iteration",
+    "Efficient LLM",
+    "Implicit CoT",
+    "Self-Distillation"
+   ],
+   "field": "高效大语言模型推理",
+   "innovations": [
+    "将Jacobi迭代引入连续CoT，实现隐式思维token的并行更新而非序列解码，打破自回归依赖",
+    "提出统一框架PCCoT，通过单一超参T等价覆盖Pause Tokens、连续CoT、iCoT等方法",
+    "揭示迭代次数非单调效应及隐式token间奇偶交错相似性模式，发现训练后token不收敛现象"
+   ],
+   "benchmarks": [
+    "GSM8K-Aug",
+    "GSM8K-Aug-NL"
+   ]
+  }
+ }
 }

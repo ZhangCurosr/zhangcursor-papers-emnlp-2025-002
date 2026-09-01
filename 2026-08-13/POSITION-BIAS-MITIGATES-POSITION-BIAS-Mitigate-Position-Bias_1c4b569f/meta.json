@@ -4,5 +4,35 @@
  "title": "POSITION-BIAS-MITIGATES-POSITION-BIAS-Mitigate-Position-Bias",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/093d367b-3b4a-47a6-884d-7637b5ff9139.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/093d367b-3b4a-47a6-884d-7637b5ff9139.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 17:00:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "位置偏差",
+    "知识蒸馏",
+    "长上下文",
+    "检索增强",
+    "多跳推理",
+    "大语言模型"
+   ],
+   "field": "长上下文语言模型",
+   "innovations": [
+    "提出位置到位置的蒸馏框架，将优势位置知识迁移至劣势位置以缓解PB",
+    "揭示PB在检索与推理任务中分别表现为token-shifting与thought-shifting，并针对性设计两类蒸馏方法",
+    "通过KL散度+位置感知动态加权+优势位置锚定的三重机制实现高效数据利用"
+   ],
+   "benchmarks": [
+    "NQ",
+    "TQA",
+    "WebQ",
+    "KV Retrieval",
+    "HotpotQA",
+    "Musique",
+    "2WikiMulti-HopQA"
+   ]
+  }
+ }
 }
