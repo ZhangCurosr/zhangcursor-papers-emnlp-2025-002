@@ -4,5 +4,28 @@
  "title": "T-MAD-Target-driven-Multimodal-Alignment-for-Stance-Detectio",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-11-04 21:09:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f172f9ea-ecc5-4336-b693-e8e52d24fb43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f172f9ea-ecc5-4336-b693-e8e52d24fb43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:14:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态立场检测",
+    "目标驱动对齐",
+    "互信息动态权重",
+    "迭代推理",
+    "零样本泛化"
+   ],
+   "field": "多模态自然语言处理",
+   "innovations": [
+    "目标驱动的多模态交叉注意力对齐机制",
+    "基于InfoNCE近似互信息的自适应模态权重分配"
+   ],
+   "benchmarks": [
+    "MMSD",
+    "MultiClimate"
+   ]
+  }
+ }
 }

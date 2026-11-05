@@ -4,5 +4,33 @@
  "title": "TTT-Bench-A-Benchmark-for-Evaluating-Reasoning-Ability-with",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-11-04 21:15:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cf599d59-5bbd-4a6b-9579-4ad0b0b1c611.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cf599d59-5bbd-4a6b-9579-4ad0b0b1c611.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:14:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "large reasoning models",
+    "benchmark",
+    "strategic reasoning",
+    "spatial reasoning",
+    "tic-tac-toe",
+    "chain-of-thought",
+    "RLVR",
+    "evaluation"
+   ],
+   "field": "大模型推理评测",
+   "innovations": [
+    "提出四种新颖TTT博弈变体构建零污染可验证推理基准",
+    "发现LRM在简单直觉任务上过思考且长期战略推理存在根本短板",
+    "建立跨域DeltaPass@1对比方法论量化推理能力解耦"
+   ],
+   "benchmarks": [
+    "TTT-Bench",
+    "MATH 500",
+    "AIME 2024"
+   ]
+  }
+ }
 }

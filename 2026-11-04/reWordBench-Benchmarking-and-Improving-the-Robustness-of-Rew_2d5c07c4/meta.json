@@ -4,5 +4,33 @@
  "title": "reWordBench-Benchmarking-and-Improving-the-Robustness-of-Rew",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-11-04 21:26:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3e9c3f0c-5ff1-4796-8286-176348dec080.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3e9c3f0c-5ff1-4796-8286-176348dec080.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:15:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward model",
+    "robustness",
+    "reWordBench",
+    "reward hacking",
+    "consistency regularization",
+    "alignment",
+    "Benchmark"
+   ],
+   "field": "语言模型对齐与评估",
+   "innovations": [
+    "提出 reWordBench 基准以系统化评估奖励模型在语义/排序保持变换下的鲁棒性",
+    "通过释义一致性正则化显著提升 RM 鲁棒性并泛化到多类变换",
+    "在 best-of-n 与 RAFT 对齐中验证正则化 RM 能产出更高质输出"
+   ],
+   "benchmarks": [
+    "RewardBench",
+    "reWordBench",
+    "UltraFeedback",
+    "HelpSteer2"
+   ]
+  }
+ }
 }
