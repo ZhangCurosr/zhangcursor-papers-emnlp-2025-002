@@ -4,5 +4,29 @@
  "title": "TRACSUM-A-New-Benchmark-for-Aspect-Based-Summarization-with",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-11-04 21:12:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1e767b5c-f0a8-456a-996d-dca1a655ae17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1e767b5c-f0a8-456a-996d-dca1a655ae17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:42:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "aspect-based summarization",
+    "traceable summarization",
+    "medical NLP",
+    "sentence-level citation",
+    "factuality evaluation",
+    "PICO framework"
+   ],
+   "field": "医学自然语言处理",
+   "innovations": [
+    "提出首个支持句子级追溯的方面基医学摘要基准TRACSUM，构建500篇摘要3.5K实例数据集",
+    "设计包含Claim/Citation四级细粒度指标（recall/precision）的自动评估框架",
+    "提出TRACK-THEN-SUM两阶段生成流水线，证明追踪前置有效且完整上下文可显著提升完整性"
+   ],
+   "benchmarks": [
+    "TRACSUM"
+   ]
+  }
+ }
 }
