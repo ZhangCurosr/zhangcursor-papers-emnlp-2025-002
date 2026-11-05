@@ -4,5 +4,34 @@
  "title": "The-LLM-Already-Knows-Estimating-LLM-Perceived-Question-Diff",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-11-04 21:04:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8596ce91-5639-4f09-9769-4284b54e9c4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8596ce91-5639-4f09-9769-4284b54e9c4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:07:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM difficulty estimation",
+    "hidden representations",
+    "Markov chain",
+    "value function",
+    "adaptive inference",
+    "Self-Consistency"
+   ],
+   "field": "大语言模型推理效率优化",
+   "innovations": [
+    "仅利用目标LLM初始隐藏状态估计难度，测试时零生成开销",
+    "将自回归生成过程建模为Markov链并用TD学习训练价值函数",
+    "基于难度估计动态分配推理预算的自适应采样策略"
+   ],
+   "benchmarks": [
+    "MMBench",
+    "ScienceQA",
+    "MathVista",
+    "StrategyQA",
+    "gsm8k",
+    "commonsenseQA"
+   ]
+  }
+ }
 }

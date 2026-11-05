@@ -4,5 +4,30 @@
  "title": "SAND-Boosting-LLM-Agents-with-Self-Taught-Action-Deliberatio",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-11-04 21:16:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9cba1c3c-ce2e-4d3f-b4eb-d0f8bac7d3d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9cba1c3c-ce2e-4d3f-b4eb-d0f8bac7d3d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:05:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Action Deliberation",
+    "Self-supervised Learning",
+    "Agent Tuning",
+    "Interactive Decision Making"
+   ],
+   "field": "LLM Agent微调与推理",
+   "innovations": [
+    "提出SAND自教学框架，让LLM agent在决策前主动比较候选行动",
+    "设计Self-consistency Action Sampling检测决策不确定性，选择性触发deliberation",
+    "通过Execution-Guided Critique生成含commonsense的step-level评估信号"
+   ],
+   "benchmarks": [
+    "ScienceWorld",
+    "ALFWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

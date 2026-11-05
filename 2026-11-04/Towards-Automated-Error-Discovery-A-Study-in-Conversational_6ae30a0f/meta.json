@@ -4,5 +4,34 @@
  "title": "Towards-Automated-Error-Discovery-A-Study-in-Conversational",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-11-04 21:25:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/45fe42f6-0e1f-4682-8f0f-eb56d3adc54a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/45fe42f6-0e1f-4682-8f0f-eb56d3adc54a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:07:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "错误检测",
+    "对话AI",
+    "广义类别发现",
+    "软聚类",
+    "对比学习",
+    "LLM摘要"
+   ],
+   "field": "对话系统错误检测",
+   "innovations": [
+    "提出SEEED编码器结合软聚类的未知错误检测方法",
+    "引入LBSR采样策略增强对比学习效率",
+    "改进SNL损失加入margin参数"
+   ],
+   "benchmarks": [
+    "FEDI-Error",
+    "Soda-Eval",
+    "ABCEval",
+    "CLINC",
+    "BANKING",
+    "StackOverflow"
+   ]
+  }
+ }
 }

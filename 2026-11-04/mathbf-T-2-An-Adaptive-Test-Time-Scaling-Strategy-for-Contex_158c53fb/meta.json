@@ -4,5 +4,35 @@
  "title": "mathbf-T-2-An-Adaptive-Test-Time-Scaling-Strategy-for-Contex",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-11-04 21:13:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7ce13d86-4ad2-4bbc-a5a8-838ed65e1c29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7ce13d86-4ad2-4bbc-a5a8-838ed65e1c29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:11:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Contextual Question Answering",
+    "Test-Time Scaling",
+    "Adaptive Reasoning",
+    "Chain-of-Thought",
+    "Reasoning Skills",
+    "Efficiency-Accuracy Tradeoff"
+   ],
+   "field": "大语言模型推理优化",
+   "innovations": [
+    "提出T²框架，通过相似示例动态选择推理策略实现自适应测试时缩放",
+    "设计多标准匹配方法，综合技能覆盖率和唯一性得分进行示例选择",
+    "建立7种基础推理技能分类体系并用于示例生成与策略匹配"
+   ],
+   "benchmarks": [
+    "SQuAD",
+    "HotpotQA",
+    "BioASQ",
+    "NewsQA",
+    "GAOKAO",
+    "HQA",
+    "TriviaQA"
+   ]
+  }
+ }
 }

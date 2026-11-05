@@ -4,5 +4,29 @@
  "title": "SHIFT-Selected-Helpful-Informative-Frame-for-Video-guided-Ma",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-11-04 21:20:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/59ba2935-3dfb-47cf-ad7a-30d096deaf0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/59ba2935-3dfb-47cf-ad7a-30d096deaf0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:05:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频引导机器翻译",
+    "多模态大语言模型",
+    "帧选择",
+    "多模态融合",
+    "自适应性输入"
+   ],
+   "field": "多模态机器翻译",
+   "innovations": [
+    "提出SHIFT即插即用框架，自适应选择单关键帧或纯文本输入",
+    "基于聚类+清晰度评分的关键帧提取机制",
+    "混合绝对校准与相对排序的联合损失函数"
+   ],
+   "benchmarks": [
+    "TriFine",
+    "VATEX"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Transferable-Direct-Prompt-Injection-via-Activation-Guided-M",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-11-04 21:01:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3052c39c-950a-4ef1-877c-bb04050443fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3052c39c-950a-4ef1-877c-bb04050443fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:08:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Direct Prompt Injection",
+    "Black-box Attack",
+    "Activation-guided",
+    "Energy-based Model",
+    "MCMC Sampling",
+    "Transferable Vulnerability"
+   ],
+   "field": "大语言模型安全与对抗攻击",
+   "innovations": [
+    "基于代理模型激活值训练EBM评估对抗提示质量",
+    "Token-level MCMC采样实现无梯度黑盒攻击",
+    "跨模型与跨任务高迁移性直接提示注入"
+   ],
+   "benchmarks": [
+    "CYBERSECEVAL3",
+    "Tensor Trust Dataset",
+    "五款主流LLM（Qwen2.5/Qwen2/Llama-3.1/Llama-3/GPT-4o-mini）"
+   ]
+  }
+ }
 }

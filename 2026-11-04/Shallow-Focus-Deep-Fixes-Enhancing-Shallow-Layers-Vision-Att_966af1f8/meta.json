@@ -4,5 +4,39 @@
  "title": "Shallow-Focus-Deep-Fixes-Enhancing-Shallow-Layers-Vision-Att",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-11-04 21:19:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9e463c2e-4338-4a9c-9abc-5ddde8668be1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9e463c2e-4338-4a9c-9abc-5ddde8668be1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:07:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "视觉幻觉",
+    "注意力汇",
+    "训练无代价方法",
+    "视觉语言模型",
+    "注意力机制分析"
+   ],
+   "field": "多模态大模型幻觉缓解",
+   "innovations": [
+    "提出 EVAS 无训练即插即用方法，通过广播浅层密集视觉汇头注意力矩阵缓解幻觉",
+    "首次系统揭示浅层密集视觉汇头密度/数量与幻觉的负相关关系并给出严格数学定义",
+    "在 7 种主流 LVLM 及视频理解模型上验证泛化性，CHAIR_S 最大降幅 13.4 点"
+   ],
+   "benchmarks": [
+    "POPE",
+    "CHAIR",
+    "MMBench",
+    "MM-Vet",
+    "MME",
+    "VizWiz",
+    "SEED",
+    "GQA",
+    "EgoSchema",
+    "MVBench",
+    "VideoMME"
+   ]
+  }
+ }
 }

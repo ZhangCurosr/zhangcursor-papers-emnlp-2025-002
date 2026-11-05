@@ -4,5 +4,34 @@
  "title": "Unleashing-the-Reasoning-Potential-of-Pre-trained-LLMs-by-Cr",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-11-04 21:26:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3cc076ac-c565-4fa1-86d1-bc62e1c60cfd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3cc076ac-c565-4fa1-86d1-bc62e1c60cfd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:08:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "批判微调",
+    "单样本后训练",
+    "推理能力",
+    "计算效率",
+    "数学推理",
+    "逻辑推理"
+   ],
+   "field": "大语言模型后训练与推理增强",
+   "innovations": [
+    "首次验证one-shot CFT可解锁预训练LLM推理潜力",
+    "提出基于多样化解法+教师批判的低成本数据集构建流程",
+    "证明CFT在5 GPU小时内可达或超越需百倍计算的RLVR效果"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "Minerva Math",
+    "Olympiad-Bench",
+    "AIME24/25",
+    "AMC23",
+    "BIG-Bench Extra Hard"
+   ]
+  }
+ }
 }

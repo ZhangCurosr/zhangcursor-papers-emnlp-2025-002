@@ -4,5 +4,31 @@
  "title": "Unveiling-Internal-Reasoning-Modes-in-LLMs-A-Deep-Dive-into",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-11-04 21:05:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3762675d-4795-487c-9053-051b594ad8aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3762675d-4795-487c-9053-051b594ad8aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:09:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多跳推理",
+    "潜在推理",
+    "事实捷径",
+    "可解释性",
+    "ARR指标",
+    "RAG冲突"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "提出ARR指标区分LLM多跳推理模式，准确率达~90%",
+    "揭示subject位置丰富过程中桥梁信息的决定性作用",
+    "将推理模式分析应用于RAG知识冲突场景"
+   ],
+   "benchmarks": [
+    "2WikiMultiHop",
+    "KRE",
+    "2FC"
+   ]
+  }
+ }
 }

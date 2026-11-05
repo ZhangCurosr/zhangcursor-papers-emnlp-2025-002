@@ -4,5 +4,31 @@
  "title": "Towards-Controllable-Speech-Synthesis-in-the-Era-of-Large-La",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-11-04 21:24:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2dca3446-787f-4485-a2be-4457e7d29c9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2dca3446-787f-4485-a2be-4457e7d29c9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:08:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可控语音合成",
+    "Text-to-Speech",
+    "大语言模型",
+    "零样本TTS",
+    "指令驱动生成",
+    "语音tokenization"
+   ],
+   "field": "可控语音合成与大模型",
+   "innovations": [
+    "首篇可控TTS系统综述，三轴分类架构/策略/特征",
+    "提出Gemini驱动的instruction-following/naturalness/expressiveness三维自动化评测",
+    "揭示从标签到自由指令的四阶段演进并验证统一指令接口优势"
+   ],
+   "benchmarks": [
+    "Gemini-based controllability eval (Table 6)",
+    "Zero-shot vs Instruction-based对比",
+    "NISQA/UTMOS vs MLLM评估Pearson对比 (Table 7)"
+   ]
+  }
+ }
 }

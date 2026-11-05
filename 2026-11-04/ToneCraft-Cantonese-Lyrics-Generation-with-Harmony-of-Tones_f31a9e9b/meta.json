@@ -4,5 +4,33 @@
  "title": "ToneCraft-Cantonese-Lyrics-Generation-with-Harmony-of-Tones",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-11-04 21:16:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8432e546-7aed-4858-a923-713075d8c17d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8432e546-7aed-4858-a923-713075d8c17d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:07:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cantonese lyrics generation",
+    "tone-melody harmony",
+    "constrained text generation",
+    "large language model",
+    "Harmony-Aware Loss",
+    "character-level control"
+   ],
+   "field": "音乐信息检索与歌词生成",
+   "innovations": [
+    "CTP-Mapping: 将0243音乐理论转化为字符-声调-音高映射表，消除对齐数据依赖",
+    "Harmony-Aware Loss: 融合交叉熵与和声正则项的复合损失，显式优化声调-旋律对齐",
+    "Polish Process: 局部不和谐检测与masked prediction重排序的后处理策略"
+   ],
+   "benchmarks": [
+    "Harmony",
+    "Consistency",
+    "Harmonicity",
+    "Listenability",
+    "Ambiguity"
+   ]
+  }
+ }
 }

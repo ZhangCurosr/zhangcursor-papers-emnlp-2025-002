@@ -4,5 +4,32 @@
  "title": "User-Feedback-in-Human-LLM-Dialogues-A-Lens-to-Understand-Us",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-11-04 21:08:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ed934731-f171-41fe-ad62-54442aa78469.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ed934731-f171-41fe-ad62-54442aa78469.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:08:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "implicit feedback",
+    "user-LLM interaction",
+    "model alignment",
+    "SFT",
+    "feedback semantics",
+    "WildBench"
+   ],
+   "field": "大语言模型对齐与用户交互",
+   "innovations": [
+    "构建首个密集标注的真实对话隐式反馈数据集并进行系统分析",
+    "提出利用反馈语义内容进行响应重生成而非仅依赖极性的训练方法",
+    "揭示反馈信号在简单与复杂任务上的相反效果，为 noisy real-world data 利用提供警示"
+   ],
+   "benchmarks": [
+    "MT-Bench",
+    "WildBench",
+    "LMSYS-chat-1M",
+    "WildChat"
+   ]
+  }
+ }
 }

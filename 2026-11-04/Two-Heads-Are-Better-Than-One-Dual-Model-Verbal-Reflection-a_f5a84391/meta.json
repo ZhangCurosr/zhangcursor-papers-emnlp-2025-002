@@ -4,5 +4,35 @@
  "title": "Two-Heads-Are-Better-Than-One-Dual-Model-Verbal-Reflection-a",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-11-04 21:25:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/18c492e0-22a3-4eb5-a85d-d0527097afea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/18c492e0-22a3-4eb5-a85d-d0527097afea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:08:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Automated Student Answer Scoring",
+    "Verbal Reinforcement Learning",
+    "Dual-Model Reasoning",
+    "Contrastive Reflection",
+    "Direct Preference Optimization",
+    "Thought Tree",
+    "Explainable AI"
+   ],
+   "field": "可解释自然语言处理 / 教育技术NLP",
+   "innovations": [
+    "提出对比反思合成流水线，将偏好对转化为精确的结构化错误纠正反馈",
+    "设计DARS双模型框架，分离Reasoner与Critic角色，实现无需oracle标签的推理时迭代反思",
+    "揭示Critic模型规模比Reasoner规模对性能提升更关键，且双小模型协作优于单一大型模型"
+   ],
+   "benchmarks": [
+    "ASAP 1",
+    "ASAP 2",
+    "ASAP 5",
+    "ASAP 6",
+    "Proprietary 1",
+    "Proprietary 2"
+   ]
+  }
+ }
 }

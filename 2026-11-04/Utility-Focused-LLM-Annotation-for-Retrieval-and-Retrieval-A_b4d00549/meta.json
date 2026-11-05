@@ -4,5 +4,33 @@
  "title": "Utility-Focused-LLM-Annotation-for-Retrieval-and-Retrieval-A",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-11-04 21:04:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/93218926-3ee4-4dc0-836f-17d118757d0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/93218926-3ee4-4dc0-836f-17d118757d0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:09:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "document utility",
+    "LLM annotation",
+    "curriculum learning",
+    "dense retrieval",
+    "multi-positive training"
+   ],
+   "field": "检索与检索增强生成",
+   "innovations": [
+    "提出基于LLM的效用标注流水线与多策略提示",
+    "提出SumMargLH多正样本训练损失",
+    "用课程学习融合LLM效用标注与少量人工标注"
+   ],
+   "benchmarks": [
+    "MS MARCO",
+    "BEIR",
+    "NQ",
+    "HotpotQA",
+    "TREC DL 19/20"
+   ]
+  }
+ }
 }

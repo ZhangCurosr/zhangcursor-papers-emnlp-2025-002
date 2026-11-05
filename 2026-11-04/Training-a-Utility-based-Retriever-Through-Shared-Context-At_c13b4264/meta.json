@@ -4,5 +4,41 @@
  "title": "Training-a-Utility-based-Retriever-Through-Shared-Context-At",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-11-04 21:12:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6da6cb4d-1492-46dd-b1b0-bf862f1e2f3e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6da6cb4d-1492-46dd-b1b0-bf862f1e2f3e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:08:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "utility-based retrieval",
+    "dense retrieval",
+    "context attribution",
+    "multi-task generalization",
+    "perturbation-based attribution",
+    "shared context"
+   ],
+   "field": "检索增强语言模型",
+   "innovations": [
+    "通过共享上下文合成策略消除多任务训练中的语义偏差，实现更纯粹的效用学习",
+    "基于扰动归因的段落级效用评估方法，显式建模段落间协同交互效应"
+   ],
+   "benchmarks": [
+    "GTI",
+    "BRIGHT",
+    "X²-Retrieval",
+    "NQ",
+    "HotpotQA",
+    "ELI5",
+    "FEVER",
+    "WoW",
+    "T-REx",
+    "zs-RE",
+    "SciFact",
+    "Climate-FEVER",
+    "FiQA"
+   ]
+  }
+ }
 }

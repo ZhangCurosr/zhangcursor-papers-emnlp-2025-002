@@ -4,5 +4,32 @@
  "title": "SLoW-Select-Low-frequency-Words-Automatic-Dictionary-Selecti",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-11-04 21:27:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cd74d07f-9bb2-47cd-aa7a-6cde3444b51d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cd74d07f-9bb2-47cd-aa7a-6cde3444b51d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:05:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动词典选择",
+    "低频词选择",
+    "大语言模型翻译",
+    "低资源语言",
+    "提示工程",
+    "机器翻译评估"
+   ],
+   "field": "多语言大语言模型与机器翻译",
+   "innovations": [
+    "提出ADS任务：在词典数量约束下自动选择最优子集增强LLM翻译",
+    "提出SLoW方法：选择训练数据低频词的词典以提升翻译性能",
+    "无需训练数据：使用公开网络资源估计词频实现零训练依赖"
+   ],
+   "benchmarks": [
+    "FLORES devtest",
+    "COMET",
+    "BLEU",
+    "chrF"
+   ]
+  }
+ }
 }

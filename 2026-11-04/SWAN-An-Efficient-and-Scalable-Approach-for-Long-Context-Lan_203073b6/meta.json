@@ -4,5 +4,40 @@
  "title": "SWAN-An-Efficient-and-Scalable-Approach-for-Long-Context-Lan",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-11-04 21:14:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6830144a-aa67-4b8f-98fe-fba988081380.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/6830144a-aa67-4b8f-98fe-fba988081380.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:06:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文",
+    "Transformer架构",
+    "位置编码",
+    "NoPE",
+    "RoPE",
+    "滑动窗口注意力",
+    "长度外推",
+    "语言模型"
+   ],
+   "field": "长上下文语言模型",
+   "innovations": [
+    "提出NoPE与SWA-RoPE交替混合的SWAN架构实现无需额外训练的长度外推",
+    "揭示SWA-RoPE层稳定NoPE隐式位置编码的机制原理",
+    "提出对数动态注意力缩放机制并实现现有模型的轻量级架构适配"
+   ],
+   "benchmarks": [
+    "RULER",
+    "NIAH",
+    "ARC-E/C",
+    "HellaSwag",
+    "Winogrande",
+    "GSM8K",
+    "MATH500",
+    "MBPP",
+    "HumanEval",
+    "MMLU"
+   ]
+  }
+ }
 }

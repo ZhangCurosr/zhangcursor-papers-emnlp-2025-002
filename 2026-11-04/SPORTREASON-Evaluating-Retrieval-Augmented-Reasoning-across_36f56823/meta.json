@@ -4,5 +4,29 @@
  "title": "SPORTREASON-Evaluating-Retrieval-Augmented-Reasoning-across",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-11-04 21:04:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d83873a6-015c-42bc-8d32-a95be0d59780.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d83873a6-015c-42bc-8d32-a95be0d59780.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:05:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Multi-modal Retrieval",
+    "Table Reasoning",
+    "Sports QA Benchmark",
+    "Agentic RAG",
+    "Mixed-modality Retrieval"
+   ],
+   "field": "检索增强生成与多模态推理",
+   "innovations": [
+    "发布首个体育领域多模态数值推理RAG基准（3K QA对+200K多模态语料），要求跨表格/段落/信息框检索与聚合",
+    "首次系统量化混合模态检索的召回崩溃问题（最强模型从90%骤降至17.5%）",
+    "揭示Agentic RAG系统在多模态数值推理任务上的泛化鸿沟及归因分析"
+   ],
+   "benchmarks": [
+    "SPORTREASON"
+   ]
+  }
+ }
 }

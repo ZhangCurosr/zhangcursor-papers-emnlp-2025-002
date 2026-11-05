@@ -4,5 +4,39 @@
  "title": "SEA-Supervised-Embedding-Alignment-for-Token-Level-Visual-Te",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-11-04 21:12:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0df96fb9-ef76-409b-b67e-7be2815796e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0df96fb9-ef76-409b-b67e-7be2815796e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:05:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "视觉-语言对齐",
+    "token级对齐",
+    "对比学习",
+    "adapter优化",
+    "小模型"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "提出token级监督对齐方法，利用预训练VLM语义标签引导adapter将视觉token映射到LLM嵌入空间",
+    "设计相似度加权采样与局部窗口采样策略，平衡语义连续性与对比学习有效性",
+    "无需额外训练数据或推理开销，显著提升小模型跨模态理解能力"
+   ],
+   "benchmarks": [
+    "VQAv2",
+    "TextVQA",
+    "GQA",
+    "ScienceQA-IMG",
+    "MMBench",
+    "POPE",
+    "VizWiz",
+    "MM-Vet",
+    "CapsBench",
+    "OCRBench",
+    "MMMU"
+   ]
+  }
+ }
 }

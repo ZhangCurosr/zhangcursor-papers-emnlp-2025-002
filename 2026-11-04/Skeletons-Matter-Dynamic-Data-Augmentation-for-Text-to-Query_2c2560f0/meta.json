@@ -4,5 +4,33 @@
  "title": "Skeletons-Matter-Dynamic-Data-Augmentation-for-Text-to-Query",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-11-04 21:16:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0fc48361-6fb5-46be-aa47-740ab3f59f53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0fc48361-6fb5-46be-aa47-740ab3f59f53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:07:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Query",
+    "Semantic Parsing",
+    "Data Augmentation",
+    "Query Skeleton",
+    "LLM Fine-tuning",
+    "Text-to-SQL",
+    "Text-to-Cypher"
+   ],
+   "field": "语义解析与代码生成",
+   "innovations": [
+    "首次定义 Text-to-Query 统一范式并基于查询骨架设计动态数据增强框架",
+    "提出骨架引导的逆向-正向合成管线确保数据质量",
+    "仅用 10,000 条合成数据超越 OmniSQL 2.5M 数据达到 SOTA"
+   ],
+   "benchmarks": [
+    "Spider",
+    "BIRD",
+    "Text2Cypher-Exec",
+    "NL2GQL"
+   ]
+  }
+ }
 }

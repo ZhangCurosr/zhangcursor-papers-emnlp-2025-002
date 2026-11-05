@@ -4,5 +4,30 @@
  "title": "Think-Wider-Detect-Sharper-Reinforced-Reference-Coverage-for",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-11-04 21:37:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/13c2001c-2629-40fa-bd2f-c57708076b3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/13c2001c-2629-40fa-bd2f-c57708076b3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:07:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "document-level contradiction detection",
+    "self-contradiction",
+    "chain-of-thought consistency",
+    "reinforcement learning",
+    "GRPO",
+    "reward design",
+    "reference coverage"
+   ],
+   "field": "文档级自然语言理解与推理",
+   "innovations": [
+    "通过参考覆盖度奖励在GRPO框架下缓解CoT推理不一致问题",
+    "提出全自动DSCD训练样本合成与验证流程",
+    "设计Accuracy/Coverage/Format三元奖励联合优化准确性与稳定性"
+   ],
+   "benchmarks": [
+    "ContraDoc"
+   ]
+  }
+ }
 }
